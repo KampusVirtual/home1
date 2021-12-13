@@ -174,13 +174,12 @@
     padding: 7px;
     color: var(--icon-hover-bg);
   }
-  a.jingan::after {
+  a.jingan {
     content: "\e806";
     display: inline-block;
     font-family: fontello;
     padding: 5px;
     font-size: 1.6rem;
-    transform: rotate(-90deg);
   }
   .text {
     font-size: 2.5rem;
@@ -236,7 +235,7 @@
   }
   .ajig:hover{
     background-color: transparent;
-    color: black;
+    color: #1b3f31;
     font-size: 10rem;
     transform: linear 1s;
   }
